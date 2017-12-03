@@ -2,4 +2,6 @@ theme: jekyll-theme-minimal
 title: David Alber
 description: foo
 
+image_base:  "/images"
+
 permalink:    /:categories/:year/:month/:title/
