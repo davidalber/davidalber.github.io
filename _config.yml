@@ -3,5 +3,6 @@ title: David Alber
 description: foo
 
 image_base:  "/images"
+date_format: "%b %-d, %Y"
 
 permalink:    /:categories/:year/:month/:title/
