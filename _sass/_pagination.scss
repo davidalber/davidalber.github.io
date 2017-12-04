@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+.pagination .left, .pagination .right {
+  padding: 1.5em 0;
+}
+
 .pagination a, .pagination .disabled {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
