@@ -20,6 +20,10 @@
   color: #333;
 }
 
+a.post-link:hover {
+  text-decoration: underline;
+}
+
 .post-footer {
   @extend .italic;
 
