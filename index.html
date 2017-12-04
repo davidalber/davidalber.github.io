@@ -17,13 +17,6 @@ layout: default
 	      <a href="/tag/{{ tag }}"><code class="highligher-rouge"><nobr>{{ tag }}</nobr></code>&nbsp;</a>
 	    {% endfor %}
           {% endif %}
-          {% if post.categories != empty %}
-            in
-            {% for category in post.categories %}
-              {% capture url %}/category/{{ category }}{% endcapture %}
-              {{ category | linkify: url, 'subtle' }}{{forloop | grammatical_list_separator }}
-            {% endfor %}
-          {% endif %}
         </p>
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h2 post-title">{{ post.title }}</h3></a>
         <p class="post-summary">
