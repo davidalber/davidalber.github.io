@@ -4,6 +4,9 @@ description: foo
 image_base:  "/images"
 date_format: "%b %-d, %Y"
 
+header_pages:
+ - about.md
+
 permalink:    /:categories/:year/:month/:title/
 
 plugins: [jekyll-paginate]
