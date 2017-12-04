@@ -5,6 +5,14 @@ task :preview do
   system "jekyll serve --watch --drafts"
 end
 
+desc 'build tag pages'
+task :build_tags do
+  puts "## Removing current tag files"
+  system "rm -f tag/*"
+  puts "## Building tag files"
+  system "sh make-tag-files.sh"
+end
+
 desc 'list tasks'
 task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
