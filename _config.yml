@@ -5,3 +5,10 @@ image_base:  "/images"
 date_format: "%b %-d, %Y"
 
 permalink:    /:categories/:year/:month/:title/
+
+plugins: [jekyll-paginate]
+paginate:     10
+sass:
+  compressed: true
+
+exclude: ["Rakefile", "Gemfile", "Gemfile.lock"]

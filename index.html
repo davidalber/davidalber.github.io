@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="posts">
+    {% if paginator.page == 1 %}
+    {% endif %}
+    {% for post in paginator.posts %}
+      <div class="post py3">
+        <p class="post-meta">
+          {{ post.date | date: site.date_format }}
+          {% if post.tags != empty %}
+            &bull; In
+            {% for tag in post.tags %}
+              {% capture url %}/tag/{{ tag }}{% endcapture %}
+              {{ tag | linkify: url, 'subtle' }}{{ url }}
+            {% endfor %}
+          {% endif %}
+          {% if post.categories != empty %}
+            in
+            {% for category in post.categories %}
+              {% capture url %}/category/{{ category }}{% endcapture %}
+              {{ category | linkify: url, 'subtle' }}{{forloop | grammatical_list_separator }}
+            {% endfor %}
+          {% endif %}
+        </p>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h2 post-title">{{ post.title }}</h3></a>
+        <p class="post-summary">
+          {% if post.summary %}
+            {{ post.summary }}
+          {% else %}
+            {{ post.excerpt }}
+          {% endif %}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% include pagination.html %}
+</div>

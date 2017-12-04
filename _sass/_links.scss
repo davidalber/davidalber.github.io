@@ -1,0 +1,18 @@
+a {
+  color: $link-color;
+  &:hover, &:focus, &:active {
+    border: 0;
+    color: $link-hover-color;
+    text-decoration: none;
+  }
+
+  &.subtle {
+    color: $subtle-link-color;
+    border-bottom: $mid-gray;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none dotted none;
+    &:hover, &:focus, &:active {
+      color: $subtle-link-hover-color;
+    }
+  }
+}
