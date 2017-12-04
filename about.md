@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+navname: <i class="fa fa-child nav-about" aria-hidden="true"></i> About
 permalink: /about/
 tags: about
 ---
