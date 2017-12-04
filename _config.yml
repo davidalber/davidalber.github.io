@@ -14,4 +14,4 @@ paginate:     10
 sass:
   compressed: true
 
-exclude: ["Rakefile", "Gemfile", "Gemfile.lock"]
+exclude: ["Rakefile", "Gemfile", "Gemfile.lock", "make-tag-files.sh"]
