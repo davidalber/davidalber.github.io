@@ -9,7 +9,7 @@ header_pages:
 
 permalink:    /:categories/:year/:month/:title/
 
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jemoji]
 paginate:     10
 sass:
   compressed: true
