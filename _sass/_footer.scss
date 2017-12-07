@@ -25,5 +25,43 @@ footer {
   font-size: $footer-font-size;
   font-weight: $footer-font-weight;
   padding: $footer-padding;
-  text-align: center;
+}
+
+footer .col-inner ul {
+  list-style-type: none;
+  font-size: $footer-font-size;
+  font-weight: $footer-font-weight;
+  padding: 0;
+}
+
+footer .col-inner a:hover {
+  text-decoration: underline;
+}
+
+footer .col-inner {
+  float: left;
+}
+
+footer .col1 {
+  width: 23%;
+}
+
+footer .name {
+  color: $dark-gray;
+  font-weight: bold;
+}
+
+footer .col2 {
+  padding-left: $footer-col-left-pad;
+  width: calc(15% - #{$footer-col-left-pad});
+}
+
+footer .col3 {
+  padding-left: $footer-col-left-pad;
+  width: calc(62% - #{$footer-col-left-pad});
+}
+
+footer .fa {
+  color: $mid-gray;
+  font-size: $footer-icon-font-size;
 }
