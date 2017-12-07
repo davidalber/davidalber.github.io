@@ -39,11 +39,18 @@ footer .col-inner a:hover {
 }
 
 footer .col-inner {
-  float: left;
+  float: none;
 }
 
 footer .col1 {
-  width: 23%;
+  @media screen and (min-width: $viewport-small) {
+    float: left;
+    width: 50%;
+  }
+  @media screen and (min-width: $viewport-medium) {
+    float: left;
+    width: 23%;
+  }
 }
 
 footer .name {
@@ -52,13 +59,24 @@ footer .name {
 }
 
 footer .col2 {
-  padding-left: $footer-col-left-pad;
-  width: calc(15% - #{$footer-col-left-pad});
+  @media screen and (min-width: $viewport-small) {
+    float: left;
+    padding-left: $footer-col-left-pad;
+    width: calc(50% - #{$footer-col-left-pad});
+  }
+  @media screen and (min-width: $viewport-medium) {
+    float: left;
+    padding-left: $footer-col-left-pad;
+    width: calc(15% - #{$footer-col-left-pad});
+  }
 }
 
 footer .col3 {
-  padding-left: $footer-col-left-pad;
-  width: calc(62% - #{$footer-col-left-pad});
+  @media screen and (min-width: $viewport-medium) {
+    float: left;
+    padding-left: $footer-col-left-pad;
+    width: calc(62% - #{$footer-col-left-pad});
+  }
 }
 
 footer .fa {
