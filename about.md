@@ -24,6 +24,6 @@ young sons.
 
 You can learn more about my professional background from my [LinkedIn
 profile <i class="fa
-fa-linkedin-square"></i>](https://www.linkedin.com/in/david-alber-37308b28). More
+fa-linkedin-square"></i>](https://www.linkedin.com/in/david-alber). More
 details about my academic background and publications (from long ago
 :smile:) are [here](/academics).
