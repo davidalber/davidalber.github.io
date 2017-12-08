@@ -1,7 +1,6 @@
 drafts_dir = '_drafts'
 posts_dir  = '_posts'
 
-# rake init['my new post']
 desc "create a new draft or post with \"rake init['draft|post','post title']\""
 task :init, [:type, :title] do |t, args|
   if args.title
