@@ -1,3 +1,40 @@
+drafts_dir = '_drafts'
+posts_dir  = '_posts'
+
+# rake init['my new post']
+desc "create a new draft or post with \"rake init['draft|post','post title']\""
+task :init, [:type, :title] do |t, args|
+  if args.title
+    title = args.title
+  else
+    abort("Missing :title argument")
+  end
+
+  if args.type == "draft"
+    dir = drafts_dir
+    filename = "#{dir}/#{title.downcase.gsub(/[^\w]+/, '-')}.md"
+  elsif args.type == "post"
+    dir = posts_dir
+    filename = "#{dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.downcase.gsub(/[^\w]+/, '-')}.md"
+  else
+    abort(":type must be \"draft\" or \"post\"")
+  end
+
+  mkdir_p "#{dir}"
+  puts "Creating new #{args.type}: #{filename}"
+  File.open(filename, "w") do |f|
+    f << <<-EOS.gsub(/^    /, '')
+    ---
+    layout:     post
+    title:      #{title}
+    date:       #{Time.new.strftime('%Y-%m-%d %H:%M')}
+    tags:       []
+    ---
+
+    EOS
+  end
+end
+
 desc 'preview the site with drafts'
 task :preview do
   puts "## Generating site"
