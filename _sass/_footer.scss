@@ -49,7 +49,7 @@ footer .col1 {
   }
   @media screen and (min-width: $viewport-medium) {
     float: left;
-    width: 23%;
+    width: 28%;
   }
 }
 
@@ -67,7 +67,7 @@ footer .col2 {
   @media screen and (min-width: $viewport-medium) {
     float: left;
     padding-left: $footer-col-left-pad;
-    width: calc(15% - #{$footer-col-left-pad});
+    width: calc(18% - #{$footer-col-left-pad});
   }
 }
 
@@ -75,7 +75,7 @@ footer .col3 {
   @media screen and (min-width: $viewport-medium) {
     float: left;
     padding-left: $footer-col-left-pad;
-    width: calc(62% - #{$footer-col-left-pad});
+    width: calc(54% - #{$footer-col-left-pad});
   }
 }
 
