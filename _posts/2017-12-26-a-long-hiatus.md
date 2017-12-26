@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      A Long Hiatus
-tags:       []
+date:       2017-12-26 10:21
 ---
 
 Wow. It's been more than four years since I wrote anything here. A lot
