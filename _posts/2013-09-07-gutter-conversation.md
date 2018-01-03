@@ -2,7 +2,7 @@
 layout:     post
 title:      Gutter Conversation
 date:       2013-09-07 15:35
-tags:       [michael]
+tags:       [michael, conversation]
 ---
 
 **Me:** We need to clean our gutters.
