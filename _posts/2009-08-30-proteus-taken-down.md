@@ -2,7 +2,7 @@
 layout:     post
 title:      Proteus Taken Down
 date:       2009-08-30 08:13
-tags:       [proteus]
+tags:       [proteus, meta]
 ---
 
 Back in late January I

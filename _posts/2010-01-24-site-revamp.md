@@ -2,7 +2,7 @@
 layout:     post
 title:      Site Revamp
 date:       2010-01-24 19:50
-tags:       [site design, twitter]
+tags:       [site design, twitter, meta]
 ---
 
 I have already hinted that I read many articles that I feel are worth

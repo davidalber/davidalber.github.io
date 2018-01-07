@@ -2,6 +2,7 @@
 layout:     post
 title:      Site Migration to GitHub Pages
 date:       2017-12-29 21:35
+tags:       [meta]
 ---
 
 I recently migrated this site from [WordPress](https://wordpress.com/)

@@ -2,7 +2,7 @@
 layout:     post
 title:      Blackbird Pie Caching Experiment
 date:       2010-11-06 14:40
-tags:       [blackbird pie, twitter]
+tags:       [blackbird pie, twitter, meta]
 ---
 
 I decided to do an experiment to verify that Blackbird Pie is caching

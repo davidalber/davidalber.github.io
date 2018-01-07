@@ -2,7 +2,7 @@
 layout:     post
 title:      Proteus is Going Out of Service
 date:       2009-01-28 22:32
-tags:       [proteus]
+tags:       [proteus, meta]
 ---
 
 I was contacted earlier this week by a system administrator back at UIUC about Proteus, my old workstation. Proteus is still hosting my old site, another former graduate student’s website, and the UIUC SIAM Chapter’s website.

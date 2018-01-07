@@ -2,7 +2,7 @@
 layout:     post
 title:      Site Revamp, Again -- Now Embedding Tweets
 date:       2010-11-06 13:39
-tags:       [blackbird pie, site design, twitter]
+tags:       [blackbird pie, site design, twitter, meta]
 ---
 
 At the beginning of the year, I [added the right
