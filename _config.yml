@@ -19,3 +19,5 @@ sass:
 exclude: ["Rakefile", "Gemfile", "Gemfile.lock", "make-tag-files.sh"]
 
 google_analytics: "UA-110543077-1"
+
+repository: "davidalber/davidalber.github.io"
