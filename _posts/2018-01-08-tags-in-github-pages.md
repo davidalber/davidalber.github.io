@@ -2,7 +2,7 @@
 layout:     post
 title:      Tags in GitHub Pages
 date:       2018-01-08 23:48
-tags:       [meta]
+tags:       [meta, github pages]
 ---
 
 I had this Jekyll site almost ready to go before I decided to use
