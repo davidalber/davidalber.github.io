@@ -1,0 +1,9 @@
+{% if page.tags != empty %}
+  {% if page.is_post %}&nbsp;|&nbsp; {% endif %}<i class="fa fa-tags" aria-hidden="true"></i>
+  {% assign tags = '' %}
+  {% for tag in page.tags %}
+    {% capture linkified_tag %}|<a href="/tag/{{ tag }}">{{ tag }}</a>{% endcapture %}
+    {% assign tags = tags | append: linkified_tag %}
+  {% endfor %}
+  {{ tags | remove_first: '|' | split: '|' | join: ', ' }}
+{% endif %}
