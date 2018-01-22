@@ -2,6 +2,7 @@
 layout: page
 title: GitHub Pages and Cloudflare
 permalink: /github-pages-and-cloudflare/
+tags: [cloudflare, github pages]
 ---
 _Last updated January 17, 2018._
 
