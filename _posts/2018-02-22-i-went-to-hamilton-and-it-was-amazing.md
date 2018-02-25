@@ -10,9 +10,10 @@ from Hamilton for half a year, so I was already familiar with the
 lyrics, especially up through "One Last Time". The experience was
 _amazing_.
 
-The story, which triggers a lot of introspection in me, is very
-moving. Seeing it in person was even more moving, and I would go again
-if I get the chance. I wish to go again.
+The story, which triggers a lot of introspection in me, is
+inspirational, tragic, and funny at the right times. Seeing it in
+person was incredible, and I would go again if I get the chance. I
+wish to go again.
 
 We obtained our tickets in a charity auction for the [Friends of FSH
 Research](http://fshfriends.org/). I'm so grateful to Chao-Jen for
