@@ -4,6 +4,7 @@ layout: default
 
 <div class="post">
   <h1><i class="fa fa-tag" aria-hidden="true"></i> {{ page.tag }}</h1>
+  {% if page.description %}<p>{{ page.description }}</p> {% endif %}
   <ul>
     {% for post in site.tags[page.tag] %}
     <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: site.date_format }})<br>
