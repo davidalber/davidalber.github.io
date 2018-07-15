@@ -28,9 +28,10 @@ that, I expanded the Conformulator to be a
 [Rocket](https://rocket.rs/) site with a simple dashboard. More
 sophisticated alerting can be created from there.
 
-At the moment, there's an experimental deployment of the site at
+~~At the moment, there's an experimental deployment of the site at
 [https://rust-conduct.davidalber.net/](https://rust-conduct.davidalber.net/). That's
-probably not a final home. Also, the current build seems to sometimes
+probably not a final home.~~ The experimental deployment has been shut
+down, but may return later. Also, the current build seems to sometimes
 stop serving pages after running for a couple days. I need to figure
 out what to do about that before I feel comfortable not calling it
 experimental.
