@@ -12,6 +12,7 @@ I noticed emoji on this site was broken. Instead of seeing
 It's not just me. This has been reported in
 [jekyll/jemoji#80](https://github.com/jekyll/jemoji/issues/80).
 
-To fix this for now, I pinned github-pages to v187 in the Gemfile,
+~~To fix this for now, I pinned github-pages to v187 in the Gemfile,
 followed by a `bundle update github-pages`. This was done in
-[1d73a64](https://github.com/davidalber/davidalber.github.io/commit/1d73a64263a90331a2fb48517c6ce7a5ded95c1e).
+[1d73a64](https://github.com/davidalber/davidalber.github.io/commit/1d73a64263a90331a2fb48517c6ce7a5ded95c1e).~~
+That only worked locally, so I've reverted the change.
