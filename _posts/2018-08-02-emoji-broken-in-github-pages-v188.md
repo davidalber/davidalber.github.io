@@ -5,6 +5,8 @@ date:       2018-08-02 22:11
 tags:       [meta]
 ---
 
+_Update: [fixed](/2018/08/emoji-fixed-in-github-pages-v189/)!_
+
 After publishing ["E-Bikes and Trails"](/2018/08/e-bikes-and-trails/)
 I noticed emoji on this site was broken. Instead of seeing
 :bicyclist:, the browser rendered \:&#8203;bicyclist:.
