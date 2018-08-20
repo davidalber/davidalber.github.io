@@ -2,7 +2,7 @@
 layout:     post
 title:      Rust Code of Conduct Conformulator
 date:       2018-06-18 22:14
-tags:       [dev]
+tags:       [dev, rust]
 ---
 
 A while back I created the [Rust Code of Conduct

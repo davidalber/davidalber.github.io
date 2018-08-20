@@ -2,7 +2,7 @@
 layout:     post
 title:      I've Been Learning Rust
 date:       2018-04-22 22:24
-tags:       [dev]
+tags:       [dev, rust]
 ---
 
 Over the past several months I've slowly, but surely been learning
