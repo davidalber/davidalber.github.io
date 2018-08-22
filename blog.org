@@ -1,0 +1,29 @@
+* Startups for the Rest of Us
+** Episode 14 -- Overcoming Fear
+*** 19:26
+You can't just stay in your safe zone all of the time. Taking risks is
+a necessity if you are an ambitious person.
+
+If you sit back and not do it, I would consider it failure.
+*** 20:45
+Six steps to dealing with fear or anxiety
+1. Take small steps. Talked about affiliate programs. Don't think it
+   will make a lot of money, but you will probably learn quite a bit.
+1. Get some concrete motivation in the right direction. Find someone
+   else who has done what you want to do, and pick their brain.
+1. Look at failure and rejection in a new light. Instead of taking
+   them as a negative thing, accept that they are valuable learning
+   experiences.
+1. Don't get too caught up in the past or the future. Don't dwell on
+   mistakes. Don't worry too much about what's happening in the
+   future.
+1. Things don't happen overnight. You need to keep working at it.
+1. Get a sanity check from someone else.
+
+* Switching Back to Being an Individual Contributor
+- I have been a software engineering manager for 3.5 years.
+- During that time I've managed three teams: Local Engineering,
+  Platforms Team, and Engineering Efficiency.
+- I had between four and eleven or twelve direct reports spread
+  across three locations.
+- 

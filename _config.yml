@@ -16,7 +16,7 @@ paginate:     10
 sass:
   compressed: true
 
-exclude: ["Rakefile", "Gemfile", "Gemfile.lock", "make-tag-files.sh"]
+exclude: ["Rakefile", "Gemfile", "Gemfile.lock", "make-tag-files.sh", "blog.org"]
 
 google_analytics: "UA-110543077-1"
 
