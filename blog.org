@@ -9,16 +9,65 @@ If you sit back and not do it, I would consider it failure.
 Six steps to dealing with fear or anxiety
 1. Take small steps. Talked about affiliate programs. Don't think it
    will make a lot of money, but you will probably learn quite a bit.
-1. Get some concrete motivation in the right direction. Find someone
+2. Get some concrete motivation in the right direction. Find someone
    else who has done what you want to do, and pick their brain.
-1. Look at failure and rejection in a new light. Instead of taking
+3. Look at failure and rejection in a new light. Instead of taking
    them as a negative thing, accept that they are valuable learning
    experiences.
-1. Don't get too caught up in the past or the future. Don't dwell on
+4. Don't get too caught up in the past or the future. Don't dwell on
    mistakes. Don't worry too much about what's happening in the
    future.
-1. Things don't happen overnight. You need to keep working at it.
-1. Get a sanity check from someone else.
+5. Things don't happen overnight. You need to keep working at it.
+6. Get a sanity check from someone else.
+
+** Episode 29 -- 5 Steps to Beating Your Startup Demons
+*** 4:26
+Five steps to beating your startup demons
+1. /Realize the difference between being a hero and a martyr./ Martyrs
+   are victims of everything and blame others for their
+   failures. People who are unhappy but don't do anything are
+   fearful. The hero is the person who takes control. Others have
+   influence on you that you allow. Heros make stuff happen.
+
+   If you hate your job you have three options:
+   1. Change something within the company.
+   2. Change something within yourself (e.g., if you think it's an attitude thing).
+   3. Change jobs.
+
+   The fourth option is not to stay in the bad situation. Don't live
+   like that.
+2. /Getting started is hard for everyone./ Three types of early
+   stage struggles:
+   1. /Fear of failure./ Everyone has this. The reality is no one is
+      going to ridicule you for failing.
+   2. /A lack of direction./ This might be the most challenging in the
+      long term because people face it time and time again. It goes to
+      what makes you excited.
+
+   [[https://www.gallup.com/press/176429/strengthsfinder.aspx][StrengthsFinder 2.0]] -- "sounds cheesy", but host likes it; exploit
+   your strengths, don't spend time on your weaknesses.
+   1. /Lack of motivation or discipline./ Escaping your job is not
+      enough motivation. You want to move toward something, not away
+      from something.
+
+3. /Knowing what you need to get started./
+   1. /Education./ How to build the business (product and marketing).
+   2. /The skills to actually get it done./
+
+4. /Figure out what the next step you can take without actually
+   writing code is./ Instead of writing code and launching a product,
+   you need to figure out if there is a market and level set your
+   expectations.
+
+   Find out what your goals are. If the reality of the situation does
+   not match those goals, you need to decide if that's acceptable,
+   modify the idea, or move on.
+
+5. /Figure out what you can do now with what you have./ Find time or
+   money. Stay up at night. Sell stuff on Craigslist. You need time or
+   money.
+
+   Learn to outsource early.
 
 * Switching Back to Being an Individual Contributor
 - I have been a software engineering manager for 3.5 years.
