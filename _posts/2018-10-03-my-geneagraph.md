@@ -2,6 +2,7 @@
 layout:     post
 title:      My Geneagraph
 date:       2018-10-03 23:32
+tags:       [geneagrapher]
 ---
 
 It's been a long time since I've written about
