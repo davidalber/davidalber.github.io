@@ -22,8 +22,8 @@ articles that I want to remember later here.
   Devastating Climate
   Report](https://www.motherjones.com/politics/2018/11/trump-admin-devastating-climate-report-black-friday/)
 - National Climate Assessment
-  - [3 big takeaways from the major new US climate
+  - [11/24/2018] [3 big takeaways from the major new US climate
     report](https://www.vox.com/2018/11/24/18109883/climate-report-2018-national-assessment)
-  - [From skiing to salmon runs, the national climate report predicts
-    a Northwest in
+  - [11/24/2018] [From skiing to salmon runs, the national climate
+    report predicts a Northwest in
     peril](https://www.seattletimes.com/seattle-news/environment/national-climate-assessment-paints-grim-picture-for-northwest/)
