@@ -21,3 +21,6 @@ articles that I want to remember later here.
 - [11/23/2018] [The Trump Administration Just Buried Its Own
   Devastating Climate
   Report](https://www.motherjones.com/politics/2018/11/trump-admin-devastating-climate-report-black-friday/)
+- National Climate Assessment
+  - [3 big takeaways from the major new US climate
+    report](https://www.vox.com/2018/11/24/18109883/climate-report-2018-national-assessment)
