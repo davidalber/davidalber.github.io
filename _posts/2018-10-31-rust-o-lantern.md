@@ -2,6 +2,7 @@
 layout:     post
 title:      Rust-o'-lantern
 date:       2018-10-31 22:43
+tags:       [rust]
 ---
 
 ![Rust-o'-lantern]({{ site.image_base }}/rust-o-lantern.jpg)
