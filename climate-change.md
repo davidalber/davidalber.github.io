@@ -29,3 +29,4 @@ articles that I want to remember later here.
     peril](https://www.seattletimes.com/seattle-news/environment/national-climate-assessment-paints-grim-picture-for-northwest/)
 - [12/1/2018] [Climate change: Where we are in seven charts and what you can do to help](https://www.bbc.com/news/science-environment-46384067)
 - [12/9/2018] [Maersk wants to slash carbon emissions from shipping to zero. But it needs help](https://www.cnn.com/2018/12/05/business/maersk-carbon-emissions-shipping/index.html). I hope to see more companies making commitments like this.
+- [12/13/2018] [The Arctic is unraveling as climate change intensifies](https://www.axios.com/the-arctic-is-unraveling-global-warming-sea-ice-melt-0a0467a2-ad82-4741-8bbe-9e2072b71efc.html)
