@@ -2,7 +2,7 @@
 layout:     post
 title:      Fandible Numenera Podcast
 date:       2018-10-11 01:28
-tags:       [numenera]
+tags:       [numenera, fandible, ttrpg]
 ---
 
 [Fandible](http://www.fandible.com/) is a roleplaying podcast with a
