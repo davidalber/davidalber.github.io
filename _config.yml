@@ -25,18 +25,4 @@ compress_html:
 #  ignore:
 #    envs: [dev]
 
-defaults:
-  -
-    scope:
-      path: ""      # empty string for all files
-      type: posts   # limit to posts
-    values:
-      is_post: true # automatically set is_post=true for all posts
-  -
-    scope:
-      path: ""      # empty string for all files
-      type: pages
-    values:
-      tags: []
-
 repository: "davidalber/davidalber.github.io"
