@@ -1,11 +1,11 @@
 <!-- If this is a page that has no tags, don't render anything. -->
-{% if page.tags != empty or page.is_post %}
+{% if page.tags or page.is_post %}
   <span class="post-meta">
     <p class="post-meta">
       {{ page.date | date: site.date_format }}
 
       <!-- Render tags -->
-      {% if page.tags != empty %}
+      {% if page.tags %}
         {% if page.is_post %}&nbsp;|&nbsp; {% endif %}<i class="fa fa-tags" aria-hidden="true"></i>
         {% assign tags = '' %}
         {% for tag in page.tags %}
