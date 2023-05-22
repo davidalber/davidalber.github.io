@@ -1,19 +1,16 @@
-<!-- If this is a page that has no tags, don't render anything. -->
-{% if page.tags or page.is_post %}
-  <span class="post-meta">
-    <p class="post-meta">
-      {{ page.date | date: site.date_format }}
+<span class="post-meta">
+  <p class="post-meta">
+    {{ page.date | date: site.date_format }}
 
-      <!-- Render tags -->
-      {% if page.tags %}
-        {% if page.is_post %}&nbsp;|&nbsp; {% endif %}<i class="fa fa-tags" aria-hidden="true"></i>
-        {% assign tags = '' %}
-        {% for tag in page.tags %}
-          {% capture linkified_tag %}|<a href="/tag/{{ tag }}">{{ tag }}</a>{% endcapture %}
-          {% assign tags = tags | append: linkified_tag %}
-        {% endfor %}
-        {{ tags | remove_first: '|' | split: '|' | join: ', ' }}
-      {% endif %}
-    </p>
-  </span>
-{% endif %}
+    <!-- Render tags -->
+    {% if page.tags != empty %}
+      &nbsp;|&nbsp;<i class="fa fa-tags" aria-hidden="true"></i>
+      {% assign tags = '' %}
+      {% for tag in page.tags %}
+        {% capture linkified_tag %}|<a href="/tag/{{ tag }}">{{ tag }}</a>{% endcapture %}
+        {% assign tags = tags | append: linkified_tag %}
+      {% endfor %}
+      {{ tags | remove_first: '|' | split: '|' | join: ', ' }}
+    {% endif %}
+  </p>
+</span>
