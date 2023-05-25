@@ -3,6 +3,7 @@ layout:     post
 title:      Geneagrapher 2.0.0
 date:       2023-05-25 16:03
 tags:       [geneagrapher]
+image:      images/gauss-geneagraph-beginning.png
 ---
 
 I recently completed one of Geneagrapher's once-or-twice-per-decade
