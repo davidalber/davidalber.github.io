@@ -4,6 +4,7 @@ title:      Geneagrapher 2.0.0
 date:       2023-05-25 16:03
 tags:       [geneagrapher]
 image:      images/gauss-geneagraph-beginning.png
+summary:    Geneagrapher 2.0.0 delivers the easist way to build a math genealogy and important improvements.
 ---
 
 I recently completed one of Geneagrapher's once-or-twice-per-decade
