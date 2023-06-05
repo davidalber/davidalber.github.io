@@ -25,7 +25,7 @@ Here's a better XNOR gate that I didn't get until verifying my other
 gates on another website. It has three layers instead of the four
 layers above.
 
-![A better XNOR gate]({{ site.image_base }}/nand-everything-better-xnor.png)
+![A better XNOR gate]({{ site.image_base }}/nand-everything-better-xnor.png){: width="585" style="display: block; margin-left: auto;" }
 
 _The gate designs were made using
 [Excalidraw](https://excalidraw.com/) and the [Logic Gates
