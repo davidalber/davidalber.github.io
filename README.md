@@ -3,6 +3,9 @@
 1. Run `bundle install`.
 1. Do `rake preview` to run the site locally.
 
+If you have created a new post, you may need to delete the _site
+directory before doing `rake preview`.
+
 # Creating a Post
 You can do the following to create an empty post.
 
