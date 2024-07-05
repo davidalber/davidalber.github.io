@@ -21,8 +21,9 @@ If you create a new tag, run `make-tag-files.sh` and check in the files it gener
 
 ### Inline Images
 
-For images displayed in a post, the target width is 1200px. Resizing
-can be done with ImageMagick.
+The widest image width in a post is 756px. Images should be sized to
+1512px or 1200px, at the smallest. Resizing can be done with
+ImageMagick.
 
 ```
 convert IMAGE.jpg -resize 1200x1200 IMAGE.resized.jpg
