@@ -18,7 +18,7 @@ paginate:     10
 sass:
   compressed: true
 
-exclude: ["Rakefile", "Gemfile", "Gemfile.lock", "make-tag-files.sh", "blog.org"]
+exclude: ["README.md", "Rakefile", "Gemfile", "Gemfile.lock", "make-tag-files.sh"]
 
 compress_html:
   comments: ["<!-- ", " -->"]
