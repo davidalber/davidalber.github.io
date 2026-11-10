@@ -1,5 +1,14 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'github-pages', group: :jekyll_plugins
+ruby file: ".ruby-version"
 
-gem "webrick", "~> 1.8"
+gem "jekyll", "~> 4.4"
+
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.18"
+  gem "jekyll-paginate", "~> 1.1"
+  gem "jemoji", "~> 0.13"
+end
+
+# Needed by `jekyll serve` on Ruby 3+.
+gem "webrick", "~> 1.9"

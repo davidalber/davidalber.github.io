@@ -16,7 +16,12 @@ plugins:
   - jekyll-feed
 paginate:     10
 sass:
-  compressed: true
+  style: compressed
+  sourcemap: never
+  # The Pixyll-era SCSS uses @import and global color functions, which Dart
+  # Sass deprecates (removal planned for Dart Sass 3). Silence until the
+  # stylesheets are modernized.
+  silence_deprecations: [import, global-builtin, color-functions]
 
 exclude: ["README.md", "Rakefile", "Gemfile", "Gemfile.lock", "make-tag-files.sh"]
 
@@ -25,4 +30,3 @@ compress_html:
 #  ignore:
 #    envs: [dev]
 
-repository: "davidalber/davidalber.github.io"
