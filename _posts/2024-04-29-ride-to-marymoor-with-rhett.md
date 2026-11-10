@@ -3,8 +3,8 @@ layout:     post
 title:      Ride to Marymoor with Rhett
 date:       2024-04-29 20:18
 tags:       [packster, rhett]
-image:      images/og/rhett-marymoor-bridge-break.jpg
-summary:    Rhett and I took a 46-mile bike ride to Marymoor's off-leash dog area and back.
+image:      /images/og/rhett-marymoor-bridge-break.jpg
+description: Rhett and I took a 46-mile bike ride to Marymoor's off-leash dog area and back.
 ---
 
 I lived in Redmond more than ten years ago, and even though we didn't have a dog then, we went to the off-leash area in [Marymoor Park](https://kingcounty.gov/en/dept/dnrp/nature-recreation/parks-recreation/king-county-parks/parks/marymoor) many times. It was fun being around the dogs, and the setting is really nice. I decided that Rhett should get to experience it, so we rode there last Friday. Here's Rhett right before we left.

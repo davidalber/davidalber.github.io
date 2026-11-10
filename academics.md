@@ -2,6 +2,7 @@
 layout: page
 title: Academic Background
 permalink: /academics/
+description: "Academic background of David Alber: a Ph.D. in Computer Science from UIUC on parallel algebraic multigrid, plus publications."
 ---
 
 _This is ancient history now, but it is part of my origin story._

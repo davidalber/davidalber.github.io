@@ -3,8 +3,8 @@ layout:     post
 title:      Finishing The Expanse
 date:       2024-04-02 15:52
 tags:       []
-image:      images/og/leviathan-falls-dedication.jpg
-summary:    I am nearing the end of the final book in The Expanse series.
+image:      /images/og/leviathan-falls-dedication.jpg
+description: I am nearing the end of the final book in The Expanse series.
 ---
 
 I've been working my way through the books and short stories of _The

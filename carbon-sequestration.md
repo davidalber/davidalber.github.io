@@ -2,6 +2,7 @@
 layout: page
 title: Carbon Sequestration
 permalink: /carbon-sequestration/
+description: Links to articles, companies, and programs working on carbon removal and sequestration.
 tags: [climate]
 ---
 

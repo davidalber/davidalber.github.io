@@ -28,8 +28,8 @@ task :init, [:type, :title] do |t, args|
     title:      #{title}
     date:       #{Time.new.strftime('%Y-%m-%d %H:%M')}
     tags:       []
-    image:      images/og/...
-    summary:    meta description summary here
+    image:      /images/og/...
+    description: meta description summary here
     ---
 
     EOS

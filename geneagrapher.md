@@ -2,6 +2,7 @@
 layout: page
 title: Mathematics Genealogy Grapher
 permalink: /geneagrapher/
+description: Geneagrapher builds graphs of mathematical genealogies using data from the Mathematics Genealogy Project.
 ---
 
 ## What is it?

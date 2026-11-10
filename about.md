@@ -3,6 +3,7 @@ layout: page
 title: About Me
 navname: <i class="fa fa-child nav-about" aria-hidden="true"></i> About
 permalink: /about/
+description: David Alber is a software engineer and technical leader in Seattle with a background in numerical analysis.
 ---
 
 Hello! My name is David Alber. :wave:

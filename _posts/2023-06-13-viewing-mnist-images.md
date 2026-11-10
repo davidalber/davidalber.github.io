@@ -3,8 +3,8 @@ layout:     post
 title:      Viewing MNIST Images
 date:       2023-06-13 15:39
 tags:       []
-image:      images/og/mnist-digits-2.png
-summary:    The MNIST Browser and MNIST Viewer are Observable notebooks that make it easy to browse and view details of handwritten digit samples in the MNIST database.
+image:      /images/og/mnist-digits-2.png
+description: The MNIST Browser and MNIST Viewer are Observable notebooks that make it easy to browse and view details of handwritten digit samples in the MNIST database.
 ---
 
 I've been reading a little about deep learning, and a problem

@@ -2,6 +2,7 @@
 layout: page
 title: Climate Change
 permalink: /climate-change/
+description: A running list of articles about climate change that I want to remember.
 tags: [climate]
 ---
 

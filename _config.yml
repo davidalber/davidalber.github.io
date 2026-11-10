@@ -1,6 +1,18 @@
 title: David Alber
 url: https://www.davidalber.net
-description: David Alber's blog.
+description: "There's no real theme here. I like programming, enjoy learning new things, and have other diverse interests. I tend to write about it all."
+lang: en_US
+logo: /favicon-256.png
+
+# Used by jekyll-seo-tag for author metadata and JSON-LD.
+author:
+  name: David Alber
+  url: https://www.davidalber.net/about/
+social:
+  name: David Alber
+  links:
+    - https://github.com/davidalber
+    - https://www.linkedin.com/in/david-alber
 
 image_base:  "/images"
 date_format: "%b %-d, %Y"
@@ -12,6 +24,8 @@ permalink:    /:categories/:year/:month/:title/
 
 plugins:
   - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - jemoji
   - jekyll-feed
 paginate:     10

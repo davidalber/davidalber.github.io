@@ -3,8 +3,8 @@ layout:     post
 title:      Everything is NAND
 date:       2023-06-05 16:28
 tags:       []
-image:      images/og/everything-is-nand.png
-summary:    NAND gates can be used to build all other logic gates. As a refresher, I designed gates using NAND. The designs aren't novel, but the drawn designs look nice.
+image:      /images/og/everything-is-nand.png
+description: NAND gates can be used to build all other logic gates. As a refresher, I designed gates using NAND. The designs aren't novel, but the drawn designs look nice.
 ---
 
 I was reading the beginning of the first chapter of [_Neural Networks

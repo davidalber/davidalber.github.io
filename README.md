@@ -39,6 +39,11 @@ This probably needs to be changed for portrait orientation images.
 
 ### OG Images
 
+Set a post's social card image with the `image` front matter field,
+using a root-relative path (`/images/og/NAME.jpg`). Set `description`
+for the search/social summary; without it, the post's first paragraph
+is used. Both are read by `jekyll-seo-tag`.
+
 The images that are used for post social cards are to be
 1200x630. Unless the image already happens to be the correct aspect
 ratio (1.91:1), it will need to be cropped. You may as well do the

@@ -2,6 +2,7 @@
 layout: page
 title: GitHub Pages and Cloudflare
 permalink: /github-pages-and-cloudflare/
+description: A summary of what has been said about using Cloudflare to provide SSL for GitHub Pages sites with custom domains, and which of it is still accurate.
 tags: [cloudflare, github pages]
 ---
 _Last updated January 17, 2018._
