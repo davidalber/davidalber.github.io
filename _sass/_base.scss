@@ -20,6 +20,16 @@ html, body {
 
 img {
   max-width: 100%;
+  // Images carry width/height attributes (see _plugins/image_attributes.rb);
+  // this keeps the aspect ratio when max-width scales them down.
+  height: auto;
+}
+
+// Inline SVG icons (_includes/icons/). They size with the surrounding text
+// and take its color.
+.icon {
+  fill: currentColor;
+  vertical-align: -0.125em;
 }
 
 em img {

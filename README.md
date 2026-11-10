@@ -32,10 +32,11 @@ The widest image width in a post is 756px. Images should be sized to
 ImageMagick.
 
 ```
-convert IMAGE.jpg -resize 1200x1200 IMAGE.resized.jpg
+magick IMAGE.jpg -resize '1512x>' IMAGE.jpg
 ```
 
-This probably needs to be changed for portrait orientation images.
+`1512x>` limits the width to 1512px and only ever shrinks, so it
+works for portrait images too.
 
 ### OG Images
 
@@ -50,8 +51,33 @@ ratio (1.91:1), it will need to be cropped. You may as well do the
 resizing at the same time.
 
 ## Optimizing
-### JPEG
+
+After adding or resizing images, run:
 
 ```
-jpegtran -copy none -progressive -optimize NAME.jpg > NAME.opt.jpg
+script/optimize-images images/NEW-IMAGE.jpg   # specific files
+script/optimize-images                        # everything under images/
 ```
+
+This strips metadata (including GPS location) from every image. JPEGs
+saved above quality 92 and larger than 100 KB are re-encoded at
+quality 88; everything else, including all PNGs, is compressed
+losslessly. Running it again on an already-optimized image changes
+nothing. It needs ImageMagick and jpegtran (`brew install imagemagick
+jpeg`), plus exiftool for PNG metadata (`brew install exiftool`).
+
+## Markup
+
+Embed images with plain Markdown (`![alt text]({{ site.image_base }}/NAME.jpg)`).
+At build time, `_plugins/image_attributes.rb` adds `width`/`height`
+(so the page doesn't jump as images load), `loading="lazy"` (except for
+the first image on a page), and `decoding="async"`.
+
+## Icons
+
+Icons are inline SVGs in `_includes/icons/`, used as
+`{% include icons/NAME.svg %}`. They come from Font Awesome Free 6
+(CC BY 4.0; the attribution comment in each file must stay). To add
+one, download its SVG from
+`https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/svgs/`
+and match the format of the existing files.

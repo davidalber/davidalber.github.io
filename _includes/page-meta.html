@@ -4,7 +4,7 @@
 
     <!-- Render tags -->
     {% if page.tags != empty %}
-      &nbsp;|&nbsp;<i class="fa fa-tags" aria-hidden="true"></i>
+      &nbsp;|&nbsp;{% include icons/tags.svg %}
       {% assign tags = '' %}
       {% for tag in page.tags %}
         {% capture linkified_tag %}|<a href="/tag/{{ tag }}">{{ tag }}</a>{% endcapture %}

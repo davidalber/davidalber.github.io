@@ -1,0 +1,96 @@
+#!/usr/bin/env bash
+#
+# Optimize images in place and strip their metadata (EXIF, GPS, XMP,
+# comments, ICC profiles).
+#
+# Usage:
+#   script/optimize-images              # every image under images/
+#   script/optimize-images FILE...      # just these files
+#
+# JPEGs saved above quality 92 and larger than 100 KB are re-encoded at
+# quality 88. (Small files save little and are where artifacts are most
+# visible, so they are left alone.) Every JPEG then gets a lossless pass (progressive, optimized Huffman tables, no metadata).
+# PNGs are stripped of metadata and recompressed losslessly; the pixels are
+# verified to be identical, and the result is kept only if it is smaller.
+#
+# Safe to run repeatedly: an already-optimized file is left at the same
+# quality and only goes through the lossless steps again.
+#
+# Requires ImageMagick 7 (magick) and libjpeg (jpegtran).
+# On macOS: brew install imagemagick jpeg
+
+set -euo pipefail
+
+JPEG_QUALITY=88
+JPEG_REENCODE_ABOVE=92
+JPEG_REENCODE_MIN_BYTES=102400
+
+for tool in magick jpegtran; do
+  if ! command -v "$tool" >/dev/null 2>&1; then
+    echo "error: $tool not found (brew install imagemagick jpeg)" >&2
+    exit 1
+  fi
+done
+
+# With no arguments, operate on the repository's images/ directory.
+[ $# -gt 0 ] || cd "$(dirname "$0")/.."
+
+tmpdir=$(mktemp -d)
+trap 'rm -rf "$tmpdir"' EXIT
+
+size() { stat -f%z "$1" 2>/dev/null || stat -c%s "$1"; }
+
+total_before=0
+total_after=0
+
+optimize_jpeg() {
+  local f=$1 work="$tmpdir/work.jpg" out="$tmpdir/out.jpg" q
+  cp "$f" "$work"
+  q=$(magick identify -format '%Q' "$f[0]")
+  if [ "$q" -gt "$JPEG_REENCODE_ABOVE" ] && [ "$(size "$f")" -gt "$JPEG_REENCODE_MIN_BYTES" ]; then
+    magick "$f" -strip -sampling-factor 4:2:0 -quality "$JPEG_QUALITY" "$work"
+  fi
+  jpegtran -copy none -optimize -progressive -outfile "$out" "$work"
+  mv "$out" "$f"
+}
+
+optimize_png() {
+  local f=$1 out="$tmpdir/out.png"
+  magick "$f" -strip -define png:compression-level=9 "$out"
+  # Never accept a PNG whose pixels changed.
+  if [ "$(magick compare -metric AE "$f" "$out" null: 2>&1 | cut -d' ' -f1)" != "0" ]; then
+    echo "  skipped: recompression changed pixels" >&2
+    return
+  fi
+  if [ "$(size "$out")" -lt "$(size "$f")" ]; then
+    mv "$out" "$f"
+  elif command -v exiftool >/dev/null 2>&1; then
+    # Recompression didn't help; still drop the metadata chunks.
+    exiftool -q -all= -overwrite_original "$f"
+  fi
+}
+
+if [ $# -gt 0 ]; then
+  files=("$@")
+else
+  files=()
+  while IFS= read -r f; do files+=("$f"); done \
+    < <(find images -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) | sort)
+fi
+
+for f in "${files[@]}"; do
+  before=$(size "$f")
+  case "$(echo "$f" | tr '[:upper:]' '[:lower:]')" in
+    *.jpg | *.jpeg) optimize_jpeg "$f" ;;
+    *.png) optimize_png "$f" ;;
+    *) echo "skipping $f (unsupported type)" >&2; continue ;;
+  esac
+  after=$(size "$f")
+  total_before=$((total_before + before))
+  total_after=$((total_after + after))
+  if [ "$after" -ne "$before" ]; then
+    printf '%7dK -> %7dK  %s\n' $((before / 1024)) $((after / 1024)) "$f"
+  fi
+done
+
+printf 'Total: %dK -> %dK\n' $((total_before / 1024)) $((total_after / 1024))

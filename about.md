@@ -1,7 +1,8 @@
 ---
 layout: page
 title: About Me
-navname: <i class="fa fa-child nav-about" aria-hidden="true"></i> About
+navname: About
+navicon: child
 permalink: /about/
 description: David Alber is a software engineer and technical leader in Seattle with a background in numerical analysis.
 ---
@@ -35,7 +36,6 @@ couple years in Golden, Colorado at NREL. Now, I live in Seattle with
 my wife and our two young sons.
 
 You can learn more about my professional background from my [LinkedIn
-profile <i class="fa
-fa-linkedin-square"></i>](https://www.linkedin.com/in/david-alber). More
+profile {% include icons/linkedin.svg %}](https://www.linkedin.com/in/david-alber). More
 details about my academic background and publications (from long ago
 :smile:) are [here](/academics).

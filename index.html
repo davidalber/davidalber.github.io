@@ -12,7 +12,7 @@ layout: default
         <p class="post-meta">
           {{ post.date | date: site.date_format }}
           {% if post.tags != empty %}
-            &nbsp;|&nbsp; <i class="fa fa-tags" aria-hidden="true"></i>
+            &nbsp;|&nbsp; {% include icons/tags.svg %}
             {% assign tags = '' %}
             {% for tag in post.tags %}
               {% capture linkified_tag %}|<a href="/tag/{{ tag }}">{{ tag }}</a>{% endcapture %}

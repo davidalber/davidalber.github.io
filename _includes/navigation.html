@@ -6,7 +6,7 @@
     {% assign page = site.pages | where: "path", path | first %}
     
     {% if page.navname or page.title %}
-        <a href="{{ page.url }}">{{ page.navname | default: page.title }}</a>
+        <a href="{{ page.url }}">{% if page.navicon %}{% include icons/{{ page.navicon }}.svg %} {% endif %}{{ page.navname | default: page.title }}</a>
     {% endif %}
 
     

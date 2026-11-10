@@ -8,4 +8,6 @@ tags:       [visualization]
 The visualization of wind at
 [http://hint.fm/wind/](http://hint.fm/wind/) is quite interesting.
 
-[![Wind Map](https://media-cache-ak0.pinimg.com/550x/c2/4c/1e/c24c1e3c7bd51d7a4d31171182c17c89.jpg)](http://pinterest.com/pin/44543483784568386/)
+[![Wind Map]({{ site.image_base }}/us-wind-map.jpg)](https://www.pinterest.com/pin/44543483784568386/)
+
+_Image via [Pinterest](https://www.pinterest.com/pin/44543483784568386/)._

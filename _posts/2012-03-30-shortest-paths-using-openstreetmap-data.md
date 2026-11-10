@@ -9,4 +9,6 @@ I saw this on Pinterest. Below is a screen capture, but if you go to
 shortestpathtree.org, you can view the paths being generated in real
 time.
 
-[![Shortest Path](https://media-cache-ak0.pinimg.com/550x/76/bd/08/76bd0844cc82e3c90f53fd4a8342c710.jpg)](http://pinterest.com/pin/44543483784492686/)
+[![Shortest Path]({{ site.image_base }}/shortest-path-tree.jpg)](https://www.pinterest.com/pin/44543483784492686/)
+
+_Image via [Pinterest](https://www.pinterest.com/pin/44543483784492686/)._
