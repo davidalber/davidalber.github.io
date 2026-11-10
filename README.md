@@ -1,10 +1,16 @@
 # Local Development
-1. Install [Bundler](https://bundler.io/).
+The site is built with Jekyll 4. The Ruby version is pinned in
+`.ruby-version`, which is used both locally (via rbenv) and in CI.
+
+1. Install that Ruby version: `rbenv install` (run from the repo root).
 1. Run `bundle install`.
 1. Do `rake preview` to run the site locally.
 
-If you have created a new post, you may need to delete the _site
-directory before doing `rake preview`.
+# Deployment
+Pushing to `main` builds and deploys the site with GitHub Actions
+(`.github/workflows/pages.yml`). Pull requests are built but not
+deployed. The repository's Pages source must be set to "GitHub
+Actions" (Settings → Pages → Build and deployment).
 
 # Creating a Post
 You can do the following to create an empty post.
