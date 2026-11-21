@@ -24,6 +24,6 @@ vegetarian diet.
 Read a summary of the research
 [here](http://www.scientificamerican.com/article.cfm?id=vegetarian-spider). The
 research manuscript is at
-[doi:10.1016/j.cub.2009.08.049](http://dx.doi.org/10.1016/j.cub.2009.08.049),
+[doi:10.1016/j.cub.2009.08.049](https://doi.org/10.1016/j.cub.2009.08.049),
 but you will need an individual or institutional subscription to get
 the full text.
